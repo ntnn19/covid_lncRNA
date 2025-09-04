@@ -1,0 +1,116 @@
+The model version (me) is fixed: GPT-5.
+
+My knowledge is current up to June 2024 (plus I can fetch fresh info from the web when needed).
+
+
+"""generate code to transform the following table to a tsv table.
+
+input:
+Item ID
+
+Sample Name
+
+Group Name
+1
+
+104_1
+
+IFN-alpha-treated
+2
+
+104_2
+
+IFN-lambda-treated
+3
+
+70_1
+
+IFN-alpha-treated
+4
+
+78_1
+
+IFN-alpha-treated
+5
+
+104_3
+
+Untreated
+6
+
+70_3
+
+Untreated
+7
+
+78_3
+
+Untreated
+8
+
+70_2
+
+IFN-lambda-treated
+9
+
+78_2
+
+IFN-lambda-treated
+10
+
+104_4
+
+SARS-CoV-2-16h
+11
+
+70_4
+
+SARS-CoV-2-16h
+12
+
+78_4
+
+SARS-CoV-2-16h
+13
+
+104_5
+
+SARS-CoV-2-72h
+14
+
+70_5
+
+SARS-CoV-2-72h
+15
+
+78_5
+
+SARS-CoV-2-72houtput should be in the same structure as the following table:
+sample_name	treatment_1	treatment_2	jointly_handled
+A	untreated	untreated	1
+B	untreated	treated	1
+C	treated	untreated	1
+D	treated	untreated	2
+E	treated	treated	2"""
+
+"""expected output should have more columns, one for each group name. samples that were not treated at all should have the value untreated in all columns"""
+
+"""almost there. i got the following table:
+sample_name,IFN_alpha_treated,IFN_lambda_treated,Untreated,SARS_CoV_2_16h,SARS_CoV_2_72h
+104_1,treated,untreated,untreated,untreated,untreated
+104_2,untreated,treated,untreated,untreated,untreated
+70_1,treated,untreated,untreated,untreated,untreated
+78_1,treated,untreated,untreated,untreated,untreated
+104_3,untreated,untreated,treated,untreated,untreated
+70_3,untreated,untreated,treated,untreated,untreated
+78_3,untreated,untreated,treated,untreated,untreated
+70_2,untreated,treated,untreated,untreated,untreated
+78_2,untreated,treated,untreated,untreated,untreated
+104_4,untreated,untreated,untreated,treated,untreated
+70_4,untreated,untreated,untreated,treated,untreated
+78_4,untreated,untreated,untreated,treated,untreated
+104_5,untreated,untreated,untreated,untreated,treated
+70_5,untreated,untreated,untreated,untreated,treated
+78_5,untreated,untreated,untreated,untreated,treated
+
+but there should be no untreated column. untreated samples should have "untreated" in all other columns"""

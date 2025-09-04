@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - bioconductor-limma =3.62.1
+  - r-stringr =1.5.1
+  - r-ashr =2.2_63

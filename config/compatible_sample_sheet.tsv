@@ -1,0 +1,16 @@
+sample_name	IFN_alpha_treated	IFN_lambda_treated	SARS_CoV_2_16h	SARS_CoV_2_72h
+104_1	treated	untreated	untreated	untreated
+104_2	untreated	treated	untreated	untreated
+70_1	treated	untreated	untreated	untreated
+78_1	treated	untreated	untreated	untreated
+104_3	untreated	untreated	untreated	untreated
+70_3	untreated	untreated	untreated	untreated
+78_3	untreated	untreated	untreated	untreated
+70_2	untreated	treated	untreated	untreated
+78_2	untreated	treated	untreated	untreated
+104_4	untreated	untreated	treated	untreated
+70_4	untreated	untreated	treated	untreated
+78_4	untreated	untreated	treated	untreated
+104_5	untreated	untreated	untreated	treated
+70_5	untreated	untreated	untreated	treated
+78_5	untreated	untreated	untreated	treated

@@ -1,0 +1,11 @@
+results/diffexp/IFN_alpha_treated_vs_Untreated.diffexp.tsv
+results/diffexp/IFN_lambda_treated_vs_Untreated.diffexp.tsv
+results/diffexp/SARS_CoV_2_16h_treated_vs_Untreated.diffexp.tsv
+results/diffexp/SARS_CoV_2_72h_treated_vs_Untreated.diffexp.tsv
+
+results/diffexp/IFN_lambda_treated_vs_IFN_alpha_treated.diffexp.tsv
+results/diffexp/SARS_CoV_2_16h_treated_vs_IFN_alpha_treated.diffexp.tsv
+results/diffexp/SARS_CoV_2_72h_treated_vs_IFN_alpha_treated.diffexp.tsv
+results/diffexp/SARS_CoV_2_16h_treated_vs_IFN_lambda_treated.diffexp.tsv
+results/diffexp/SARS_CoV_2_72h_treated_vs_IFN_lambda_treated.diffexp.tsv
+results/diffexp/SARS_CoV_2_72h_treated_vs_SARS_CoV_2_16h_treated.diffexp.tsv
